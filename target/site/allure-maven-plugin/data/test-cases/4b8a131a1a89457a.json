@@ -1,0 +1,79 @@
+{
+  "uid" : "4b8a131a1a89457a",
+  "name" : "createNewUser()",
+  "fullName" : "com.jsonplaceholder.user.post.PostTest.createNewUser",
+  "historyId" : "c9a124b71f8f7e5aec75f79d8d6f1011",
+  "time" : {
+    "start" : 1659956547948,
+    "stop" : 1659956548282,
+    "duration" : 334
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "40849884f593608f",
+      "name" : "Request",
+      "source" : "40849884f593608f.html",
+      "type" : "text/html",
+      "size" : 2053
+    }, {
+      "uid" : "150c4858da2349ee",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "150c4858da2349ee.html",
+      "type" : "text/html",
+      "size" : 2694
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "B119Z33"
+  }, {
+    "name" : "thread",
+    "value" : "6320@B119Z33.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.jsonplaceholder.user.post.PostTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.jsonplaceholder.user.post.PostTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createNewUser"
+  }, {
+    "name" : "suite",
+    "value" : "com.jsonplaceholder.user.post.PostTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4b8a131a1a89457a.json",
+  "parameterValues" : [ ]
+}

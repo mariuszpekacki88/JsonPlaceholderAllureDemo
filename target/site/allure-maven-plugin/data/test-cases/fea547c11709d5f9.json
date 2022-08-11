@@ -1,0 +1,79 @@
+{
+  "uid" : "fea547c11709d5f9",
+  "name" : "Create user with specific email:test@wp.pl",
+  "fullName" : "com.jsonplaceholder.user.post.PostTest.createOrganization",
+  "historyId" : "a1f8f30e5f9bb193e5177361cd010fcc",
+  "time" : {
+    "start" : 1659956546673,
+    "stop" : 1659956547182,
+    "duration" : 509
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5a63ab61d1bb119",
+      "name" : "Request",
+      "source" : "5a63ab61d1bb119.html",
+      "type" : "text/html",
+      "size" : 2055
+    }, {
+      "uid" : "d28747a162bf19e6",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "d28747a162bf19e6.html",
+      "type" : "text/html",
+      "size" : 2699
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "B119Z33"
+  }, {
+    "name" : "thread",
+    "value" : "6320@B119Z33.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.jsonplaceholder.user.post.PostTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.jsonplaceholder.user.post.PostTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrganization"
+  }, {
+    "name" : "suite",
+    "value" : "com.jsonplaceholder.user.post.PostTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fea547c11709d5f9.json",
+  "parameterValues" : [ ]
+}

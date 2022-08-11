@@ -1,0 +1,79 @@
+{
+  "uid" : "321b5b5e0ab85c38",
+  "name" : "deleteAllUser()",
+  "fullName" : "com.jsonplaceholder.user.delete.DeleteTest.deleteAllUser",
+  "historyId" : "32aefe09dafc9daf39f74d20e1e07abb",
+  "time" : {
+    "start" : 1659956541380,
+    "stop" : 1659956543548,
+    "duration" : 2168
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f4b595ffb9e2834f",
+      "name" : "Request",
+      "source" : "f4b595ffb9e2834f.html",
+      "type" : "text/html",
+      "size" : 377
+    }, {
+      "uid" : "8b85b22f0d483fda",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "8b85b22f0d483fda.html",
+      "type" : "text/html",
+      "size" : 1725
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "B119Z33"
+  }, {
+    "name" : "thread",
+    "value" : "6320@B119Z33.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.jsonplaceholder.user.delete.DeleteTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.jsonplaceholder.user.delete.DeleteTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteAllUser"
+  }, {
+    "name" : "suite",
+    "value" : "com.jsonplaceholder.user.delete.DeleteTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "321b5b5e0ab85c38.json",
+  "parameterValues" : [ ]
+}

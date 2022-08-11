@@ -1,0 +1,63 @@
+<div>POST to https://jsonplaceholder.typicode.com/users</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;name&quot;: &quot;Nazwa nowa Mariusz&quot;,
+    &quot;username&quot;: &quot;mariuszpekacki&quot;,
+    &quot;email&quot;: &quot;www@wp.pl&quot;,
+    &quot;phone&quot;: &quot;511023990&quot;,
+    &quot;website&quot;: &quot;www.wp@pl&quot;,
+    &quot;address&quot;: {
+        &quot;street&quot;: &quot;Celulozy&quot;,
+        &quot;suite&quot;: &quot;234234&quot;,
+        &quot;city&quot;: &quot;Warsaw&quot;,
+        &quot;zipcode&quot;: &quot;09-999&quot;,
+        &quot;geo&quot;: {
+            &quot;lat&quot;: &quot;-11.111&quot;,
+            &quot;lng&quot;: &quot;99.999&quot;
+        }
+    },
+    &quot;company&quot;: {
+        &quot;name&quot;: &quot;LuxMed&quot;,
+        &quot;catchPhrase&quot;: &quot;sasdasdasd&quot;,
+        &quot;bs&quot;: &quot;asdasdsad&quot;
+    }
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json; charset=UTF-8</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://jsonplaceholder.typicode.com/users&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json; charset=UTF-8&#39; -d &#39;{
+    &quot;name&quot;: &quot;Nazwa nowa Mariusz&quot;,
+    &quot;username&quot;: &quot;mariuszpekacki&quot;,
+    &quot;email&quot;: &quot;www@wp.pl&quot;,
+    &quot;phone&quot;: &quot;511023990&quot;,
+    &quot;website&quot;: &quot;www.wp@pl&quot;,
+    &quot;address&quot;: {
+        &quot;street&quot;: &quot;Celulozy&quot;,
+        &quot;suite&quot;: &quot;234234&quot;,
+        &quot;city&quot;: &quot;Warsaw&quot;,
+        &quot;zipcode&quot;: &quot;09-999&quot;,
+        &quot;geo&quot;: {
+            &quot;lat&quot;: &quot;-11.111&quot;,
+            &quot;lng&quot;: &quot;99.999&quot;
+        }
+    },
+    &quot;company&quot;: {
+        &quot;name&quot;: &quot;LuxMed&quot;,
+        &quot;catchPhrase&quot;: &quot;sasdasdasd&quot;,
+        &quot;bs&quot;: &quot;asdasdsad&quot;
+    }
+}&#39;
+</div>

@@ -1,0 +1,79 @@
+{
+  "uid" : "73d526133c4d8fcc",
+  "name" : "readOneUserWithPathVariables()",
+  "fullName" : "com.jsonplaceholder.user.get.GetTest.readOneUserWithPathVariables",
+  "historyId" : "ef90d17f8c20f72ffc0d3146986b9a6d",
+  "time" : {
+    "start" : 1659956544886,
+    "stop" : 1659956545115,
+    "duration" : 229
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7b97d890407406bb",
+      "name" : "Request",
+      "source" : "7b97d890407406bb.html",
+      "type" : "text/html",
+      "size" : 375
+    }, {
+      "uid" : "e185792fb3eaa3d4",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "e185792fb3eaa3d4.html",
+      "type" : "text/html",
+      "size" : 2694
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "B119Z33"
+  }, {
+    "name" : "thread",
+    "value" : "6320@B119Z33.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.jsonplaceholder.user.get.GetTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.jsonplaceholder.user.get.GetTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "readOneUserWithPathVariables"
+  }, {
+    "name" : "suite",
+    "value" : "com.jsonplaceholder.user.get.GetTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73d526133c4d8fcc.json",
+  "parameterValues" : [ ]
+}

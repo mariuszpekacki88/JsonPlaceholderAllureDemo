@@ -1,0 +1,193 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "com.jsonplaceholder.user.delete.DeleteTest",
+    "children" : [ {
+      "name" : "deleteAllUser()",
+      "uid" : "321b5b5e0ab85c38",
+      "parentUid" : "f58ef96ba5595775b65f196eeb7556ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659956541380,
+        "stop" : 1659956543548,
+        "duration" : 2168
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deleteUser()",
+      "uid" : "c9147209a4b75541",
+      "parentUid" : "f58ef96ba5595775b65f196eeb7556ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659956543664,
+        "stop" : 1659956543974,
+        "duration" : 310
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f58ef96ba5595775b65f196eeb7556ee"
+  }, {
+    "name" : "com.jsonplaceholder.user.get.GetTest",
+    "children" : [ {
+      "name" : "readOneUser()",
+      "uid" : "fd785afdf103372b",
+      "parentUid" : "33f4d0719a6d498af57fbde8e52056b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659956544007,
+        "stop" : 1659956544683,
+        "duration" : 676
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "readUserWithQueryParams()",
+      "uid" : "bc0971003137e1c2",
+      "parentUid" : "33f4d0719a6d498af57fbde8e52056b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659956544683,
+        "stop" : 1659956544882,
+        "duration" : 199
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "readOneUserWithPathVariables()",
+      "uid" : "73d526133c4d8fcc",
+      "parentUid" : "33f4d0719a6d498af57fbde8e52056b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659956544886,
+        "stop" : 1659956545115,
+        "duration" : 229
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "readAllUsers()",
+      "uid" : "5ef0b0720984c245",
+      "parentUid" : "33f4d0719a6d498af57fbde8e52056b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659956545119,
+        "stop" : 1659956545310,
+        "duration" : 191
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "33f4d0719a6d498af57fbde8e52056b2"
+  }, {
+    "name" : "com.jsonplaceholder.user.patch.patchTest",
+    "children" : [ {
+      "name" : "Update user with specific email: test@wp.pl",
+      "uid" : "abc47014b6c97395",
+      "parentUid" : "cc735c6d097f59fce68ca649f379d93c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659956545351,
+        "stop" : 1659956545890,
+        "duration" : 539
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Update user with specific email: test@aap.com",
+      "uid" : "ced860f74971adaa",
+      "parentUid" : "cc735c6d097f59fce68ca649f379d93c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659956545899,
+        "stop" : 1659956546256,
+        "duration" : 357
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Update user with specific email: test@aa.eu",
+      "uid" : "28a1572733cebdf5",
+      "parentUid" : "cc735c6d097f59fce68ca649f379d93c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659956546260,
+        "stop" : 1659956546652,
+        "duration" : 392
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cc735c6d097f59fce68ca649f379d93c"
+  }, {
+    "name" : "com.jsonplaceholder.user.post.PostTest",
+    "children" : [ {
+      "name" : "Create user with specific email:test@wp.pl",
+      "uid" : "fea547c11709d5f9",
+      "parentUid" : "c3f76cb98fb626fd1d3fa7254c101dcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659956546673,
+        "stop" : 1659956547182,
+        "duration" : 509
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create user with specific email:test@aap.com",
+      "uid" : "3791343cb2643c97",
+      "parentUid" : "c3f76cb98fb626fd1d3fa7254c101dcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659956547190,
+        "stop" : 1659956547582,
+        "duration" : 392
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create user with specific email:test@aa.eu",
+      "uid" : "566fa0fa8875f3c0",
+      "parentUid" : "c3f76cb98fb626fd1d3fa7254c101dcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659956547590,
+        "stop" : 1659956547939,
+        "duration" : 349
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createNewUser()",
+      "uid" : "4b8a131a1a89457a",
+      "parentUid" : "c3f76cb98fb626fd1d3fa7254c101dcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659956547948,
+        "stop" : 1659956548282,
+        "duration" : 334
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c3f76cb98fb626fd1d3fa7254c101dcc"
+  }, {
+    "name" : "com.jsonplaceholder.user.put.putTest",
+    "children" : [ {
+      "name" : "updateEmail()",
+      "uid" : "731a3dfb0fbfb28",
+      "parentUid" : "22ff876506dd899f3443e2e3b1a46a54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659956548290,
+        "stop" : 1659956548684,
+        "duration" : 394
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "22ff876506dd899f3443e2e3b1a46a54"
+  } ]
+}

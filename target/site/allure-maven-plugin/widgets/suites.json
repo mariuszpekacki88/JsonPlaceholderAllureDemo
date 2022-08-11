@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "33f4d0719a6d498af57fbde8e52056b2",
+    "name" : "com.jsonplaceholder.user.get.GetTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "c3f76cb98fb626fd1d3fa7254c101dcc",
+    "name" : "com.jsonplaceholder.user.post.PostTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "cc735c6d097f59fce68ca649f379d93c",
+    "name" : "com.jsonplaceholder.user.patch.patchTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "f58ef96ba5595775b65f196eeb7556ee",
+    "name" : "com.jsonplaceholder.user.delete.DeleteTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "22ff876506dd899f3443e2e3b1a46a54",
+    "name" : "com.jsonplaceholder.user.put.putTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

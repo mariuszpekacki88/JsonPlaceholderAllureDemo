@@ -1,0 +1,181 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "B119Z33",
+    "children" : [ {
+      "name" : "6320@B119Z33.main(1)",
+      "children" : [ {
+        "name" : "updateEmail()",
+        "uid" : "731a3dfb0fbfb28",
+        "parentUid" : "91e1a22566f9625c4a9f5118cff0def9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659956548290,
+          "stop" : 1659956548684,
+          "duration" : 394
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "readOneUserWithPathVariables()",
+        "uid" : "73d526133c4d8fcc",
+        "parentUid" : "91e1a22566f9625c4a9f5118cff0def9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659956544886,
+          "stop" : 1659956545115,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update user with specific email: test@aap.com",
+        "uid" : "ced860f74971adaa",
+        "parentUid" : "91e1a22566f9625c4a9f5118cff0def9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659956545899,
+          "stop" : 1659956546256,
+          "duration" : 357
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create user with specific email:test@aa.eu",
+        "uid" : "566fa0fa8875f3c0",
+        "parentUid" : "91e1a22566f9625c4a9f5118cff0def9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659956547590,
+          "stop" : 1659956547939,
+          "duration" : 349
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update user with specific email: test@aa.eu",
+        "uid" : "28a1572733cebdf5",
+        "parentUid" : "91e1a22566f9625c4a9f5118cff0def9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659956546260,
+          "stop" : 1659956546652,
+          "duration" : 392
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deleteAllUser()",
+        "uid" : "321b5b5e0ab85c38",
+        "parentUid" : "91e1a22566f9625c4a9f5118cff0def9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659956541380,
+          "stop" : 1659956543548,
+          "duration" : 2168
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "readUserWithQueryParams()",
+        "uid" : "bc0971003137e1c2",
+        "parentUid" : "91e1a22566f9625c4a9f5118cff0def9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659956544683,
+          "stop" : 1659956544882,
+          "duration" : 199
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "readAllUsers()",
+        "uid" : "5ef0b0720984c245",
+        "parentUid" : "91e1a22566f9625c4a9f5118cff0def9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659956545119,
+          "stop" : 1659956545310,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deleteUser()",
+        "uid" : "c9147209a4b75541",
+        "parentUid" : "91e1a22566f9625c4a9f5118cff0def9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659956543664,
+          "stop" : 1659956543974,
+          "duration" : 310
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update user with specific email: test@wp.pl",
+        "uid" : "abc47014b6c97395",
+        "parentUid" : "91e1a22566f9625c4a9f5118cff0def9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659956545351,
+          "stop" : 1659956545890,
+          "duration" : 539
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "readOneUser()",
+        "uid" : "fd785afdf103372b",
+        "parentUid" : "91e1a22566f9625c4a9f5118cff0def9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659956544007,
+          "stop" : 1659956544683,
+          "duration" : 676
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create user with specific email:test@aap.com",
+        "uid" : "3791343cb2643c97",
+        "parentUid" : "91e1a22566f9625c4a9f5118cff0def9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659956547190,
+          "stop" : 1659956547582,
+          "duration" : 392
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create user with specific email:test@wp.pl",
+        "uid" : "fea547c11709d5f9",
+        "parentUid" : "91e1a22566f9625c4a9f5118cff0def9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659956546673,
+          "stop" : 1659956547182,
+          "duration" : 509
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewUser()",
+        "uid" : "4b8a131a1a89457a",
+        "parentUid" : "91e1a22566f9625c4a9f5118cff0def9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659956547948,
+          "stop" : 1659956548282,
+          "duration" : 334
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "91e1a22566f9625c4a9f5118cff0def9"
+    } ],
+    "uid" : "9d5a30f213dd3dcce4136a69b13a8ce1"
+  } ]
+}

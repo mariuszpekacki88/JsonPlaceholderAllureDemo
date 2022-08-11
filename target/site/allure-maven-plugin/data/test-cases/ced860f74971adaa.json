@@ -1,0 +1,79 @@
+{
+  "uid" : "ced860f74971adaa",
+  "name" : "Update user with specific email: test@aap.com",
+  "fullName" : "com.jsonplaceholder.user.patch.patchTest.updateUserEmail",
+  "historyId" : "6780047236a121003b266a26f226e94e",
+  "time" : {
+    "start" : 1659956545899,
+    "stop" : 1659956546256,
+    "duration" : 357
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9582ad486b0ddb3e",
+      "name" : "Request",
+      "source" : "9582ad486b0ddb3e.html",
+      "type" : "text/html",
+      "size" : 573
+    }, {
+      "uid" : "a40963b9a0b637dd",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "a40963b9a0b637dd.html",
+      "type" : "text/html",
+      "size" : 2664
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "B119Z33"
+  }, {
+    "name" : "thread",
+    "value" : "6320@B119Z33.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.jsonplaceholder.user.patch.patchTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.jsonplaceholder.user.patch.patchTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "updateUserEmail"
+  }, {
+    "name" : "suite",
+    "value" : "com.jsonplaceholder.user.patch.patchTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ced860f74971adaa.json",
+  "parameterValues" : [ ]
+}
